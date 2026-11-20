@@ -6,6 +6,7 @@ Heart Rate Zone Running App for Apple Watch & iPhone
 
 - [Privacy Policy (English)](privacy-policy.md)
 - [개인정보 처리방침 (한국어)](privacy-policy-ko.md)
+- [プライバシーポリシー (日本語)](privacy-policy-ja.md)
 
 ## Features
 
