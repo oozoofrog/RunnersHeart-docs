@@ -1,6 +1,6 @@
 # Privacy Policy
 
-Updated November 18, 2026.
+Updated November 20, 2026.
 
 RunnersHeart records runs on Apple Watch and lets you review goals and workouts on iPhone. Core features do not require an account. The app operates no health-data server and sends no health or location data to advertising or analytics SDKs. Apple Maps, system sharing, and feedback email are described below.
 
@@ -34,9 +34,9 @@ Deleting a workout requires separate confirmation in its details. The app reques
 
 ## Feedback email
 
-The feedback button opens an editable email to the developer. The app fills in its version, your iPhone’s operating system and version, and the device type. You decide what to write, which details to keep, and whether to send the message using your mail app.
+The feedback button opens an editable email to the developer. The app fills in its version, your iPhone’s operating system and version, and the device model. You decide what to write, which details to keep, and whether to send the message using your mail app. If you send it, the developer receives your email address and the message content to handle your inquiry.
 
-Troubleshooting logging is off by default. If you agree to turn it on in iPhone Settings, iPhone and its paired Watch keep recent app behavior events in their own caches for up to 7 days and up to 2,000 events per device. The log can include app and device information, settings, permission and connection status, event names and times, shortened workout IDs, and route recording counts. It excludes names, email addresses, text you type, raw heart-rate samples, and route points or coordinates.
+Troubleshooting logging is off by default. If you agree to turn it on in iPhone Settings, iPhone and its paired Watch keep recent app behavior events in their own caches for up to 7 days and up to 2,000 events per device. The log can include app and device information, the device’s UTC offset in minutes, settings, permission and connection status, event names and times, shortened workout IDs, workout states, motion or step-derived values such as cadence or stillness, and route recording counts. It excludes names, email addresses, text you type, raw heart-rate samples, and route points or coordinates.
 
 You choose separately for each feedback email whether to attach the log. For that attachment, iPhone requests a report from the Watch if it is reachable and encrypts the file to the developer’s public key. If your mail app needs a manual attachment, you can share the encrypted file from Settings. The app does not automatically send the log to the developer.
 
@@ -44,7 +44,7 @@ Turning the setting off deletes the iPhone log and any pending attachment the ap
 
 ## Permissions and choices
 
-System controls let you grant or deny health and location access. Denial, unsupported features, or errors can restrict features or leave values unavailable. Without location access, a workout can still be recorded without a route. If only approximate location is allowed, Watch asks once at the start of an outdoor workout for precise location for that workout only; if you decline, the workout is recorded without a route. When you measure your cadence on Watch, the app reads your step count with Motion & Fitness access to suggest a cadence. With this access, it also uses step counts during a workout to detect when you stop moving. The app does not keep those step counts and saves the cadence you apply as a preference. Watch uses Apple’s speech synthesis to speak workout cues. It does not record microphone audio or use speech recognition.
+System controls let you grant or deny health and location access. Denial, unsupported features, or errors can restrict features or leave values unavailable. Without location access, a workout can still be recorded without a route. If only approximate location is allowed, Watch asks once at the start of an outdoor workout for precise location for that workout only; if you decline, the workout is recorded without a route. When you measure your cadence on Watch, the app reads your step count with Motion & Fitness access to suggest a cadence. With this access, it also uses step counts during a workout to detect when you stop moving. Watch sends cadence calibration readings to the paired iPhone for display. The app does not retain the raw step counts. It saves the cadence you apply as a preference. Watch uses Apple’s speech synthesis to speak workout cues. It does not record microphone audio or use speech recognition.
 
 Record comparisons show sample counts and comparison conditions. A single heart-rate change does not establish fitness improvement or safety. If urgent symptoms occur, stop exercising and prioritize appropriate help.
 
