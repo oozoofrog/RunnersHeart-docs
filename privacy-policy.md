@@ -1,6 +1,6 @@
 # Privacy Policy
 
-Updated November 20, 2026.
+Updated November 25, 2026.
 
 RunnersHeart records runs on Apple Watch and lets you review goals and workouts on iPhone. Core features do not require an account. The app operates no health-data server and sends no health or location data to advertising or analytics SDKs. Apple Maps, system sharing, and feedback email are described below.
 
@@ -22,6 +22,8 @@ The iPhone app uses Apple Maps to load map imagery for the current route, saved 
 
 Live Activities show confirmed current state. The iPhone widget queries OS workouts; the Watch goal widget reads your saved next-goal choice. System updates can be delayed. Stale heart rate is not displayed as a current measurement. Health values on system surfaces are marked sensitive; visibility also depends on system lock-screen and widget settings.
 
+If you allow notifications on iPhone, RunnersHeart can add workout milestone cues confirmed by your Apple Watch to Notification Center. Your iPhone creates these local notifications from current workout state. The app uses no push service and sends no notification content to the developer. You can turn these notifications off in iPhone Settings.
+
 ## App preferences
 
 The app stores future goals, challenge, indoor or outdoor choice, cadence, and sound, voice and vibration settings in device preferences. Apps and widgets use the existing App Group to read needed goal choices. These preferences are not copies of active or completed workouts. Resetting settings resets choices on that device and preserves HealthKit workouts.
@@ -36,11 +38,11 @@ Deleting a workout requires separate confirmation in its details. The app reques
 
 The feedback button opens an editable email to the developer. The app fills in its version, your iPhone’s operating system and version, and the device model. You decide what to write, which details to keep, and whether to send the message using your mail app. If you send it, the developer receives your email address and the message content to handle your inquiry.
 
-Troubleshooting logging is off by default. If you agree to turn it on in iPhone Settings, iPhone and its paired Watch keep recent app behavior events in their own caches for up to 7 days and up to 2,000 events per device. The log can include app and device information, the device’s UTC offset in minutes, settings, permission and connection status, event names and times, shortened workout IDs, workout states, motion or step-derived values such as cadence or stillness, and route recording counts. It excludes names, email addresses, text you type, raw heart-rate samples, and route points or coordinates.
+Troubleshooting logging is off by default. If you agree to turn it on in iPhone Settings, iPhone and its paired Watch keep recent app behavior events in their own caches for up to 7 days and up to 2,000 events per device. The log can include app and device information, the device’s UTC offset in minutes, the device’s language and region setting, settings, permission and connection status, the names and times of events such as app launches, changes in active state, opening a saved workout, and action requests, shortened session, workout, and request IDs, workout states, motion or step-derived values such as cadence or stillness, the number of running workouts read and route recording counts, error types with numeric codes, elapsed times and delays, whether sound or vibration cues played, and vibration counts. It excludes names, email addresses, text you type, raw heart-rate samples, and route points or coordinates.
 
 You choose separately for each feedback email whether to attach the log. For that attachment, iPhone requests a report from the Watch if it is reachable and encrypts the file to the developer’s public key. If your mail app needs a manual attachment, you can share the encrypted file from Settings. The app does not automatically send the log to the developer.
 
-Turning the setting off deletes the iPhone log and any pending attachment the app prepared for manual sharing. Watch deletes its log when it receives the change, including at the next contact if it was unreachable. The developer deletes received diagnostic files 90 days after handling the inquiry. For an earlier deletion request, email the contact address below. Copying the recipient address puts it on the iPhone clipboard.
+Turning the setting off deletes the iPhone log and any pending attachment the app prepared for manual sharing. Watch deletes its log when it receives the change, including at the next contact if it was unreachable. If you email the file, the developer can read it alongside your sender address. The developer uses the file only to handle your inquiry and does not use it for tracking. The developer deletes received diagnostic files 90 days after handling the inquiry. For an earlier deletion request, email the contact address below. Copying the recipient address puts it on the iPhone clipboard.
 
 ## Permissions and choices
 
